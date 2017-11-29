@@ -1,0 +1,26 @@
+Specs for Project 1:
+
+Gadget Interface:
+	Methods:
+	-trigger()
+	-action()
+	-getOrientation()
+	-getCollisionBoundaries()
+	-getCenter()
+	Fields:
+	-center coordinates
+	
+Variant Classes of Gadget:
+	-SquareBumper
+	-CircleBumper
+	-TriangleBumper
+	-Absorber
+	-Ball
+	
+	notes:
+	-immutable
+
+CollisionBoundary
+	Methods:
+	-getType()
+	-getBoundaries()

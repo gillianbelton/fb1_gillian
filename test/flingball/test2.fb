@@ -1,0 +1,15 @@
+board name=Test2 gravity = 30.0 friction1 = 0.035 friction2 = 0.045
+
+# define some bumpers
+squareBumper name=Square x=0 y=2
+circleBumper name=Circle x=4 y=3
+triangleBumper name=Tri x=1 y=1
+
+# absorbers
+absorber name=Abs1 x=0 y=19 width=1 height=1
+
+# define events between gadgets
+fire trigger=Square action=Abs
+
+# also make the absorber self-triggering
+fire trigger=Abs action=Abs

@@ -1,0 +1,4 @@
+board name=Test1
+
+# define a ball
+ball name=Ball x=1.8 y=4.5 xVelocity=-3.4 yVelocity=-2.3
